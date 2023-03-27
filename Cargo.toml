@@ -1,0 +1,15 @@
+[package]
+name = "iced_multitest2"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+#iced = { path = "../iced", features = ["canvas", "tokio","debug"] }
+iced = { version = "0.8", features = ["canvas", "tokio","debug"] }
+once_cell = "1.16.0"
+#iced_native = { path = "../iced/native" }
+iced_native = "0.9"
+#tokio = "1.26.0"
